@@ -5,10 +5,13 @@
 
 
 
-html, body {
+html, body,main {
     height: 100%; 
     font-family: 'hanken';
     font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Readex+Pro:wght@160..700&family=Young+Serif&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -14,12 +18,18 @@
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <script>
+    function myFunction(){
+      alert("I appreciate you reviewing my work. Thanks for the support!    (أقدر مراجعتك لعملي. شكراً على الدعم!)")
+    }
+  </script>
 </head>
 <body>
-  
+  <main>
   <div class="contaner">
     <div class="c1">
-      <div class="result">
+      <article class="result">
 
         <div class="result-text">
           Your Result
@@ -41,9 +51,9 @@
         </div>
         
 
-  </div>
+      </article>
 
-  <div class="summary">
+  <article class="summary">
 
     <div class="summary-text">
       Summary
@@ -52,7 +62,7 @@
     <div class="reaction">
       
       <div>
-        <img src="assets/images/icon-reaction.svg" alt="">
+        <img src="assets/images/icon-reaction.svg" alt="reaction imge">
         Reaction
       </div>
       <div class="reaction-value">
@@ -115,13 +125,14 @@
 
     </div>
     
-    <button class="continue">Continue</button>
+    <button onclick="myFunction()" class="continue">Continue</button>
     
 
-  </div>
+  </article>
   </div>
 </div>
   
+  </main>
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
